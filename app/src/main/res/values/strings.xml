@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">homeWork2</string>
+    <string name="surname">Surname</string>
+    <string name="add">ADD</string>
+    <string name="page2">Page2</string>
+    <string name="number_of_students">number of students</string>
+    <string name="name">name</string>
+    <string name="todo">TODO</string>
+</resources>
