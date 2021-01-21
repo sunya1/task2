@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(baseContext, "Please Fill Your Name And Surname", Toast.LENGTH_SHORT).show()
             }
             else{
-                var fullName = surname_edit_text.text.toString() +" "+ name_edit_text.text.toString()
+                var fullName = surname_edit_text.text.toString().trim() +" "+ name_edit_text.text.toString().trim()
                 val newStudent = Student(fullName)
                 Log.d("full name" , fullName )
                 if(list.contains(newStudent)){
